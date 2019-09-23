@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="15"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:paddingRight="@dimen/list_margin"
+    android:paddingLeft="@dimen/list_margin"
+    >
+
+    <TextView
+        android:id="@+id/txtViewStartTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="5"
+        android:text="Tue04Jun"
+        android:textSize="@dimen/his_font_size"
+        />
+
+    <TextView
+        android:id="@+id/txtViewActiveMins"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:textSize="@dimen/his_font_size"
+        android:textAlignment="center"
+        android:text="14"
+        />
+
+    <TextView
+        android:id="@+id/txtViewDistance"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:textSize="@dimen/his_font_size"
+        android:textAlignment="textEnd"
+        android:text="12/2"
+        />
+
+    <TextView
+        android:id="@+id/txtViewCost"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:textAlignment="textEnd"
+        android:textSize="@dimen/his_font_size"
+        android:text="$21.04"
+        />
+
+</LinearLayout>
